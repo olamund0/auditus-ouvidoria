@@ -30,7 +30,7 @@ while opcao != 8:
     print('4)Exibir quantidade de manifestações\n')
     print('5)Pesquisar manifestação por código\n')
     print('6)Alterar o Título e Descrição de uma manifestação\n')
-    print('7)Excluir uma manifestação por código\n')
+    print('7)Excluir manifestações\n')
     print('8)Sair do sistema\n')
     print()
 
