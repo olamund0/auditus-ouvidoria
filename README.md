@@ -10,11 +10,11 @@ A ideia geral deste projeto é um sistema que ajuda empresas a organizar todas a
 
 ## Features
 
-- Sistema De Listagem Inteligente
+- Sistema de Listagem Inteligente
 
 - Criação de Manifestações
-- Contagem Automática De Manifestações
-- Pesquisa Por Código
+- Contagem Automática de Manifestações
+- Pesquisa por Código
 - Customização de ocorrência
 - Exclusão de Manifestações
 
