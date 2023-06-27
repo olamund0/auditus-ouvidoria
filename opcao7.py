@@ -1,7 +1,7 @@
 from classe import *
 
 
-def excluirmanifestacao(conexao):
+def excluirmanifestacao(conexao): 
     consulta = 'select count(*) from manifestacao'
     manifestacao = listarBancoDados(conexao, consulta)
     quantidade = manifestacao[0][0]
