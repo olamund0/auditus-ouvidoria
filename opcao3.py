@@ -17,8 +17,8 @@ def criarmanifestacao(conexao):
         tipo = 'Outros'
 
     autor = input('Digite seu nome: ')
-    titulo = input('Dê um título para o seu elogio: ')
-    descricao = input('Descreva o seu elogio: ')
+    titulo = input('Dê um título para sua manifestação: ')
+    descricao = input('Descreva sua manifestação: ')
     data = str(input('Digite o dia em que o fato ocorreu (formato DD/MM/AA): '))
     sqlInsercao = 'insert into manifestacao (titulo,descricao,autor,tipo,data) values(%s,%s,%s,%s,%s)'
     valores = [titulo, descricao, autor, tipo, data]
